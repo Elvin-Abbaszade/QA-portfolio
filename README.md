@@ -14,10 +14,13 @@ Focused on manual testing, API testing, SQL and JS.
 - JS basics
 - Testing types: Functional, Regression, Smoke, Sanity, E2E
 
-- ## Certifications
+## Certifications
 - [SQL (Basic) — HackerRank](https://www.hackerrank.com/certificates/iframe/872ff5d59668)
 - [API Beginner Learning Path — Postman](https://verify.skilljar.com/c/y9w5obrrsvrk)
 
 ## Contact
 - LinkedIn: https://www.linkedin.com/in/elvin-abbaszade/
 - Email: abbaszade.elvin@outlook.com
+
+## LeetCode Practice
+[My LeetCode Profile](https://leetcode.com/u/b0gomol4/)
