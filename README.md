@@ -22,5 +22,6 @@ Focused on manual testing, API testing, SQL and JS.
 - LinkedIn: https://www.linkedin.com/in/elvin-abbaszade/
 - Email: abbaszade.elvin@outlook.com
 
-## LeetCode Practice
-[My LeetCode Profile](https://leetcode.com/u/b0gomol4/)
+## Practice
+- [LeetCode Profile](https://leetcode.com/u/b0gomol4/) — JavaScript solutions
+- [SQL Academy](https://sql-academy.org) — 56+ tasks solved
