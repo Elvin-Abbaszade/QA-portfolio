@@ -15,5 +15,5 @@ Focused on manual testing, API testing, SQL and JS.
 - Testing types: Functional, Regression, Smoke, Sanity, E2E
 
 ## Contact
-- LinkedIn: linkedin.com/in/elvin-abbaszade
+- LinkedIn: https://www.linkedin.com/in/elvin-abbaszade/
 - Email: abbaszade.elvin@outlook.com
