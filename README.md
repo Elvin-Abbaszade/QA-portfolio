@@ -23,5 +23,5 @@ Focused on manual testing, API testing, SQL and JS.
 - Email: abbaszade.elvin@outlook.com
 
 ## Practice
-- [LeetCode Profile](https://leetcode.com/u/b0gomol4/) — JavaScript solutions
+- ![LeetCode Stats](https://leetcode-stats-fast.vercel.app/?username=b0gomol4&site=us&theme=nord) — JavaScript solutions
 - [SQL Academy](https://sql-academy.org) — 56+ tasks solved
