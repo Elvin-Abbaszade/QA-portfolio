@@ -24,5 +24,4 @@ Focused on manual testing, API testing, SQL and JS.
 
 ## Practice
 ![LeetCode Stats](https://leetcode-stats-fast.vercel.app/?username=b0gomol4&site=us&theme=nord)
-- [SQL Academy](https://sql-academy.org) — 56+ tasks solved
-- ![SQL Academy](https://img.shields.io/badge/SQL%20Academy-56%2B%20tasks-green?style=for-the-badge&logo=mysql)
+- [SQL Academy](https://sql-academy.org) — ![SQL Academy](https://img.shields.io/badge/SQL%20Academy-56%2B%20tasks-green?style=for-the-badge&logo=mysql)
