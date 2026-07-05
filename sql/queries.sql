@@ -1,8 +1,8 @@
 -- =========================================
 -- SQL Practice Queries
--- Platform: SQL Academy (https://sql-academy.org/ru/trainer)
+-- Platform: SQL Academy (https://sql-academy.org/en/trainer)
 -- Author: Elvin Abbaszade
--- Solved: 56 tasks
+-- Solved: 56 tasks| Still solving...
 -- =========================================
 
 -- ========== EASY ==========
