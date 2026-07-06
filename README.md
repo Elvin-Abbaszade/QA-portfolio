@@ -65,9 +65,6 @@ Currently focused on:
 
 ![Codewars](https://img.shields.io/badge/Codewars-587%20Completed%20Kata-B1361E?style=for-the-badge&logo=codewars&logoColor=white)
 
-
-### SQL Academy
-
 ### SQL Academy
 
 - https://sql-academy.org
