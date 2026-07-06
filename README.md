@@ -59,6 +59,15 @@ Currently focused on:
 
 ![LeetCode Stats](https://leetcode-stats-fast.vercel.app/?username=b0gomol4&site=us&theme=nord&width=1000)
 
+### Codewars
+
+[![Codewars](https://www.codewars.com/users/b0gomol4/badges/large)](https://www.codewars.com/users/b0gomol4)
+
+![Codewars](https://img.shields.io/badge/Codewars-587%20Completed%20Kata-B1361E?style=for-the-badge&logo=codewars&logoColor=white)
+
+
+### SQL Academy
+
 ### SQL Academy
 
 - https://sql-academy.org
