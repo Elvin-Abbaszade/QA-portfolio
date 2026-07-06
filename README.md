@@ -1,28 +1,73 @@
-# QA Portfolio — Elvin Abbaszade
+# 👋 QA Portfolio — Elvin Abbaszade
 
-Junior QA Engineer / Trainee based in Baku, Azerbaijan
+**Junior QA Engineer / Trainee**  
+📍 Baku, Azerbaijan
 
-## About Me
-Motivated QA enthusiast seeking a Trainee/Junior QA role. 
-Focused on manual testing, API testing, SQL and JS.
+---
 
-## Skills
-- Manual Testing (Test Cases, Bug Reports, Checklists)
-- REST API Testing — Postman
-- SQL Basics
-- Git basics
-- JS basics
-- Testing types: Functional, Regression, Smoke, Sanity, E2E
+## 👨‍💻 About Me
 
-## 📚 Certifications
-- [SQL (Basic) — HackerRank](https://www.hackerrank.com/certificates/iframe/872ff5d59668) - ![Git](https://img.shields.io/badge/Git-Learning-F05032?style=for-the-badge&logo=git&logoColor=white)
-- [API Beginner Learning Path — Postman](https://verify.skilljar.com/c/y9w5obrrsvrk) - ![Postman](https://img.shields.io/badge/Postman-Certified-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+Motivated QA enthusiast seeking a **Trainee / Junior QA Engineer** position.
 
-## Contact
-- LinkedIn: https://www.linkedin.com/in/elvin-abbaszade/
-- Email: abbaszade.elvin@outlook.com
+Currently focused on:
+- Manual Testing
+- REST API Testing
+- SQL
+- Git
+- JavaScript
 
-## Practice
+---
+
+## 🛠 Skills
+
+- Manual Testing (Test Cases, Checklists, Bug Reports)
+- REST API Testing (Postman)
+- SQL
+- Git
+- JavaScript (Basics)
+- Testing Types:
+  - Functional
+  - Regression
+  - Smoke
+  - Sanity
+  - End-to-End (E2E)
+
+---
+
+## ⚙️ Tools & Technologies
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+
+## 📜 Certifications
+
+- **SQL (Basic)** — HackerRank  
+  https://www.hackerrank.com/certificates/iframe/872ff5d59668
+
+- **API Beginner Learning Path** — Postman  
+  https://verify.skilljar.com/c/y9w5obrrsvrk
+
+---
+
+## 💻 Practice
+
+### LeetCode
+
 ![LeetCode Stats](https://leetcode-stats-fast.vercel.app/?username=b0gomol4&site=us&theme=nord&width=1000)
 
-- [SQL Academy](https://sql-academy.org) —  ![SQL Academy](https://img.shields.io/badge/SQL%20Academy-50%2B%20SQL%20Tasks-2ea44f?style=for-the-badge&logo=sqlite&logoColor=white)
+### SQL Academy
+
+- https://sql-academy.org
+
+![SQL Academy](https://img.shields.io/badge/SQL%20Academy-50%2B%20SQL%20Tasks-2ea44f?style=for-the-badge&logo=sqlite&logoColor=white)
+
+---
+
+## 📫 Contact
+
+- 💼 LinkedIn: https://www.linkedin.com/in/elvin-abbaszade/
+- 📧 Email: abbaszade.elvin@outlook.com
