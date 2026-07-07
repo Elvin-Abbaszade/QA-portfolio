@@ -52,63 +52,152 @@ pm.request.headers.add({
     value: pm.environment.get("apiKey")
 });
 ```
+## Post-response Scripts (Tests)
 
-## Automated Tests
+> Each request has its own tests written in the **Tests** tab in Postman.
 
-### Status Code Validation
+### GET - List Users
 
 ```javascript
+const jsonData = pm.response.json();
+
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
-```
 
-### Response Time Validation
-
-```javascript
 pm.test("Response time is less than 1000ms", function () {
     pm.expect(pm.response.responseTime).to.be.below(1000);
 });
-```
 
-### JSON Structure Validation
-
-```javascript
-pm.test("Response has required fields", function () {
-    const json = pm.response.json();
-    pm.expect(json).to.have.property("data");
-    pm.expect(json).to.have.property("page");
-});
-```
-
-### Data Type Validation
-
-```javascript
 pm.test("Data types are correct", function () {
-    const json = pm.response.json();
-    pm.expect(json.page).to.be.a("number");
-    pm.expect(json.data).to.be.an("array");
+    pm.expect(jsonData.page).to.be.a("number");
+    pm.expect(jsonData.data).to.be.an("array");
+});
+
+pm.test("Each user has required fields", function () {
+    jsonData.data.forEach(function (user) {
+        pm.expect(user).to.have.property("id");
+        pm.expect(user).to.have.property("email");
+        pm.expect(user).to.have.property("first_name");
+        pm.expect(user).to.have.property("last_name");
+    });
+});
+
+pm.test("Data length matches per_page", function () {
+    pm.expect(jsonData.data.length).to.eql(jsonData.per_page);
+});
+
+pm.test("Response has pagination fields", function () {
+    pm.expect(jsonData).to.have.property("page");
+    pm.expect(jsonData).to.have.property("total_pages");
+    pm.expect(jsonData).to.have.property("per_page");
+});
+
+pm.test("Total pages calculated correctly", function () {
+    const expectedTotalPages = Math.ceil(jsonData.total / jsonData.per_page);
+
+    pm.expect(jsonData.total_pages).to.eql(expectedTotalPages);
+});
+
+```
+
+### POST - Create User
+
+```javascript
+const jsonData = pm.response.json();
+
+pm.test("Status code is 201", function () {
+    pm.response.to.have.status(201);
+});
+
+pm.test("Response time is less than 1000ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(1000);
+});
+
+pm.test("Response has required fields", function () {
+    pm.expect(jsonData).to.have.property("name");
+    pm.expect(jsonData).to.have.property("job");
+    pm.expect(jsonData).to.have.property("id");
+    pm.expect(jsonData).to.have.property("createdAt");
+});
+
+pm.test("Name and job is correct", function () {
+    pm.expect(jsonData.name).to.eql("Elvin");
+    pm.expect(jsonData.job).to.eql("QA Engineer");
 });
 ```
 
-### Pagination Validation
+### PUT - Full Update User
 
 ```javascript
-pm.test("Response has pagination fields", function () {
-    const json = pm.response.json();
-    pm.expect(json).to.have.property("page");
-    pm.expect(json).to.have.property("total_pages");
-    pm.expect(json).to.have.property("per_page");
+const jsonData = pm.response.json();
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Response time is less than 1000ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(1000);
+});
+
+pm.test("Response has required fields", function () {
+    pm.expect(jsonData).to.have.property("name");
+    pm.expect(jsonData).to.have.property("job");
+    pm.expect(jsonData).to.have.property("updatedAt");
+});
+```
+
+### PATCH - Partial Update User
+
+```javascript
+const jsonData = pm.response.json();
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Response time is less than 1000ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(1000);
+});
+
+pm.test("Response has required fields", function () {
+    pm.expect(jsonData).to.have.property("job");
+    pm.expect(jsonData).to.have.property("updatedAt");
+});
+
+pm.test("Job is updated", function () {
+    pm.expect(jsonData.job).to.eql("Automation QA");
+});
+
+pm.test("UpdatedAt exists", function () {
+    pm.expect(jsonData.updatedAt).to.exist;
+});
+
+```
+
+### DELETE - Delete User
+
+```javascript
+pm.test("Status code is 204", function () {
+    pm.response.to.have.status(204);
+});
+
+pm.test("Response time is less than 1000ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(1000);
+});
+
+pm.test("Response body is empty", function () {
+    pm.expect(pm.response.text()).to.eql("");
 });
 ```
 
 ## PUT vs PATCH
 
-|   PUT    |                           PATCH                               |
-|----------|---------------------------------------------------------------|
-|  Type    |                   Full update | Partial update                |
-|  Body    |           All fields required | Only changed fields           |
-|  Example | `{ "name": "Elvin", "job": "QA" }` | `{ "job": "Senior QA" }` |
+| | PUT | PATCH |
+|---|---|---|
+| Type | Full update | Partial update |
+| Body | All fields required | Only changed fields |
+| Example | `{ "name": "Elvin", "job": "QA" }` | `{ "job": "Senior QA" }` |
 
 ## Screenshots
 
