@@ -46,10 +46,10 @@ Currently focused on:
 ## 📜 Certifications
 
 - **Problem Solving (Basic) Certificate** — HackerRank  
-  [https://www.hackerrank.com/certificates/iframe/872ff5d59668](https://www.hackerrank.com/certificates/8b4401184b8d)
+  https://www.hackerrank.com/certificates/8b4401184b8d
 
 - **SQL (Basic)** — HackerRank  
-  https://www.hackerrank.com/certificates/iframe/872ff5d59668
+  https://www.hackerrank.com/certificates/872ff5d59668
 
 - **API Beginner Learning Path** — Postman  
   https://verify.skilljar.com/c/y9w5obrrsvrk
