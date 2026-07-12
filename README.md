@@ -66,7 +66,7 @@ Currently focused on:
 
 [![Codewars](https://www.codewars.com/users/b0gomol4/badges/large)](https://www.codewars.com/users/b0gomol4)
 
-![Codewars](https://img.shields.io/badge/Codewars-587%20Completed%20Kata-B1361E?style=for-the-badge&logo=codewars&logoColor=white)
+![Codewars](https://img.shields.io/badge/Codewars-297%20Completed%20Kata-B1361E?style=for-the-badge&logo=codewars&logoColor=white)
 
 ### SQL Academy
 
